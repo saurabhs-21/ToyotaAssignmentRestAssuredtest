@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-10T17:07:31 IST" name="All Test Suite" finished-at="2023-01-10T17:07:40 IST" duration-ms="9680">
+    <groups>
+    </groups>
+    <test started-at="2023-01-10T17:07:31 IST" name="C:\Users\Saurabh\eclipse-workspace\ToyotaAssignmentRestAssuredtest\src\test\java\toyotaCar\ToyoCarTest.java" finished-at="2023-01-10T17:07:40 IST" duration-ms="9680">
+      <class name="toyotaCar.ToyoCarTest">
+        <test-method signature="readBuyCar()[pri:0, instance:toyotaCar.ToyoCarTest@659a969b]" started-at="2023-01-10T17:07:31 IST" name="readBuyCar" finished-at="2023-01-10T17:07:40 IST" duration-ms="9586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readBuyCar -->
+      </class> <!-- toyotaCar.ToyoCarTest -->
+    </test> <!-- C:\Users\Saurabh\eclipse-workspace\ToyotaAssignmentRestAssuredtest\src\test\java\toyotaCar\ToyoCarTest.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
