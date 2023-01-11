@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:\Users\Saurabh\eclipse-workspace\ToyotaAssignmentRestAssuredtest\src\test\java\toyotaCar\ToyoCarTest.java">
-        <classes>
-            <class name="toyotaCar.ToyoCarTest">
-                <methods>
-                    <include name="readBuyCar"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-</suite>
-
-
-
-
-
 	
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+	<test verbose="2" preserve-order="true"
+		name="C:\Users\Saurabh\eclipse-workspace\ToyotaAssignmentRestAssuredtest\src\test\java\toyotaCar\ToyoCarTest.java">
+		<classes>
+			<class name="toyotaCar.ToyoCarTest">
+				<methods>
+					<include name="readBuyCar" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -5,7 +5,7 @@
     <classes>
       <class name="toyotaCar.ToyoCarTest">
         <methods>
-          <include name="readBuyCar1"/>
+          <include name="readBuyCar2"/>
         </methods>
       </class> <!-- toyotaCar.ToyoCarTest -->
     </classes>
